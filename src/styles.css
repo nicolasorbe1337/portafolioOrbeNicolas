@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-image: url('./assets/images/fondo.webp');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed; /* Hace que la imagen de fondo sea fija cuando se desplaza la página */
+  background-position: center; /* Centra la imagen en el fondo */
+  font-family: 'Montserrat', sans-serif;
+}
