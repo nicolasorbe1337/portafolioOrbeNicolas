@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 
-
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.css']
+  selector: 'app-footer',
+  templateUrl: './footer.component.html',
+  styleUrls: ['./footer.component.css']
 })
-export class NavbarComponent {
-
+export class FooterComponent {
   scrollToSection(sectionId: string, delay: number = 0) {
     setTimeout(() => {
       const element = document.getElementById(sectionId);

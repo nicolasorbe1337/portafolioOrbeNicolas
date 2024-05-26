@@ -1,13 +1,13 @@
 <app-navbar></app-navbar>
 <router-outlet></router-outlet>
 
-<section>
-  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+<section id="inicio-section" class="overflow-x-hidden">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-44">
     <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
       <div class="relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
         <img
           alt=""
-          src="../assets/images/coding.svg"
+          src="../assets/images/img1.webp"
           class="absolute inset-0 h-full w-full object-cover"
         />
       </div>
@@ -18,19 +18,27 @@
         <h2 class="text-4xl font-bold sm:text-5xl">Web developer</h2>
 
         <p class="mt-4 text-gray-100">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut qui hic atque tenetur quis
-          eius quos ea neque sunt, accusantium soluta minus veniam tempora deserunt? Molestiae eius
-          quidem quam repellat.
+          Experiencia en reuniones presenciales y virtuales con clientes para el relevamiento de funcionalidades. Hábil en el diseño de archivos PDF estructurados para asegurar una comprensión clara tanto para los clientes como para los desarrolladores. Colaboré en la planificación de Sprints utilizando Trello. He desarrollado páginas web, landings y carritos de compras para e-commerce de mi ciudad utilizando TypeScript, Angular, JavaScript y TailwindCSS. También formé parte de equipos de desarrollo para sistemas internos de gestión, enfocándome en el FrontEnd y la digitalización de funcionalidades.
         </p>
 
         <a
-          href="#"
+          href="../assets/images/CvwebNicolasorbe.pdf"
+          download
           class="mt-8 inline-block rounded bg-[#6f859b] px-12 py-3 text-sm font-medium text-white transition hover:bg-[#6f859b] border-solid border-2 border-[#B3E5FC]"
         >
           Curriculum vitae
         </a>
       </div>
+
     </div>
   </div>
+  <div class="flex justify-center w-full lg:py-28 py-20" id="animate-me">
+
+    <app-skills id="skills-section"></app-skills>
+  </div>
+  <div class="mb-20 lg:py-44 py-20">
+    <app-proyectos id="proyectos-section"></app-proyectos>
+  </div>
 </section>
+<app-footer id="contacto-section" ></app-footer>
 
