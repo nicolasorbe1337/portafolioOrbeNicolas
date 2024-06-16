@@ -2,13 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Monserratfont';
+  src: url('./assets/font/Montserrat-Variable.ttf');
+}
+
 body {
-  background-image: url('./assets/images/fondo.webp');
+  background-color: #141414;
   background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-attachment: fixed; /* Hace que la imagen de fondo sea fija cuando se desplaza la página */
   background-position: center; /* Centra la imagen en el fondo */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Monserratfont';
 }
 
 @keyframes zoomIn {
