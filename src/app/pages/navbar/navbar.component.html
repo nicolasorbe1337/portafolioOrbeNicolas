@@ -1,6 +1,6 @@
 
 
-<nav class="w-full border-gray-200 bg-transparent dark:bg-[#000000] dark:border-gray-900">
+<nav class="w-full border-gray-200 bg-[#131313] dark:bg-[#000000] dark:border-gray-900">
   <div class=" max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <div class="flex items-center space-x-4 text-[#C0C0C0]">
       <a href="https://www.linkedin.com/in/nicolas-orbe" target="_blank" class="flex items-center space-x-3 rtl:space-x-reverse ">
@@ -22,16 +22,16 @@
     <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
       <ul class="flex flex-col font-medium mt-4 rounded-lg bg-[#000000] md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700 cursor-pointer">
         <li>
-          <a (click)="scrollToSection('inicio-section', 200)" class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Home</a>
+          <a [routerLink]="['']"  class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent" aria-current="page">Home</a>
         </li>
         <li>
-          <a (click)="scrollToSection('skills-section', 200)" class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
+          <a [routerLink]="[ '/skills']" class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Skills</a>
         </li>
         <li>
-          <a (click)="scrollToSection('proyectos-section', 200)" class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Proyectos</a>
+          <a [routerLink]="[ '/proyectos']" class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Proyectos</a>
         </li>
         <li>
-          <a (click)="scrollToSection('contacto-section', 200)" class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a>
+          <a (click)="scrollToSection('contacto-section', 200)"  class="block py-2 px-3 md:p-0 text-[#C0C0C0] md:text-[#C0C0C0] rounded hover:bg-neutral-800 md:hover:bg-transparent md:border-0 md:hover:text-white dark:text-white md:dark:hover:text-white dark:hover:bg-white dark:hover:text-white md:dark:hover:bg-transparent">Contacto</a>
         </li>
       </ul>
     </div>
