@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { SkillsComponent } from './skills.component';
 import { Routes, RouterModule } from '@angular/router';
 
+
 const routes: Routes =[
   {
     path: '',
